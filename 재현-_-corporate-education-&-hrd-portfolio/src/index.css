@@ -6,6 +6,18 @@
     scroll-behavior: smooth;
     color: #14243A;
     background-color: #FFFFFF;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  body {
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, span, li, button, a, label, dt, dd {
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
 }
 
