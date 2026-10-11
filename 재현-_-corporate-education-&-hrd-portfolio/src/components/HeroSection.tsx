@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowDown, ArrowUpRight, FileText, Mail } from 'lucide-react';
 import { PortfolioProfile } from '../types/portfolio';
 
 interface HeroSectionProps {
@@ -28,16 +27,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ profile, onResumeClick
           {profile.secondaryCopy}
         </p>
 
-        {/* Action Buttons */}
-        <div className="flex flex-wrap items-center gap-4 mb-16">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-white bg-[#315EFB] hover:bg-[#254bd0] rounded transition-colors shadow-xs"
-          >
-            <span>View Projects</span>
-            <ArrowDown className="w-4 h-4" />
-          </a>
-        </div>
+        {/* Action Buttons (비활성화 및 숨김) */}
 
         {/* 3 Core Competency Proof Columns (Clean Unboxed Grid) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-10 border-t border-[#E5E7EB]">
