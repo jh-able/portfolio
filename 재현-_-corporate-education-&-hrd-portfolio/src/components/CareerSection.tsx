@@ -14,7 +14,7 @@ export const CareerSection: React.FC<CareerSectionProps> = ({ experiences }) => 
         {/* Section Header */}
         <div className="max-w-3xl mb-12">
           <div className="text-xs uppercase tracking-widest font-semibold text-[#315EFB] mb-3">
-            Section 03 · Career
+            Career
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#14243A] tracking-tight">
             경력 사항 (Career Timeline)
