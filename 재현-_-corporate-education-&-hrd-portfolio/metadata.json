@@ -1,0 +1,6 @@
+{
+  "name": "재현 | Corporate Education & HRD Portfolio",
+  "description": "기업교육 컨설팅, 교육과정 기획·운영, AI 기반 콘텐츠 제작 및 웹앱 개발 전문 커리어 포트폴리오",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
