@@ -22,7 +22,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ profile, onResum
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-3xl mb-16">
           <div className="text-xs uppercase tracking-widest font-semibold text-[#315EFB] mb-3">
-            Section 07 · Contact
+            Contact
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#14243A] tracking-tight mb-4">
             Let's Connect
