@@ -30,7 +30,7 @@ export const SkillsSection: React.FC<SkillsSectionProps> = ({ skills, onSelectPr
         {/* Section Header */}
         <div className="max-w-3xl mb-16">
           <div className="text-xs uppercase tracking-widest font-semibold text-[#315EFB] mb-3">
-            Section 05 · Skills & Capabilities
+            Skills & Capabilities
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#14243A] tracking-tight mb-4">
             직무 역량 & 실무 적용 경험
