@@ -51,13 +51,13 @@ export default function App() {
 
       {/* Main Content Sections */}
       <main className="flex-1">
-        {/* Section 01: Hero */}
+        {/* Hero */}
         <HeroSection
           profile={profileData}
           onResumeClick={() => setIsResumeModalOpen(true)}
         />
 
-        {/* Section 02: About */}
+        {/* About */}
         <AboutSection
           pillars={aboutPillars}
           onSelectCategory={(category) => {
@@ -65,12 +65,12 @@ export default function App() {
           }}
         />
 
-        {/* Section 03: Career */}
+        {/* Career */}
         <CareerSection
           experiences={careerExperiences}
         />
 
-        {/* Section 04: Selected Projects */}
+        {/* Selected Projects */}
         <ProjectsSection
           projects={projectsData}
           selectedCategory={selectedCategory}
@@ -78,16 +78,16 @@ export default function App() {
           onOpenProjectDetail={(project) => setSelectedProject(project)}
         />
 
-        {/* Section 05: Skills */}
+        {/* Skills */}
         <SkillsSection
           skills={skillCategories}
           onSelectProjectById={handleSelectProjectById}
         />
 
-        {/* Section 06: Career Direction */}
+        {/* Career Direction */}
         <CareerDirectionSection />
 
-        {/* Section 07: Contact (파일 내용은 그대로 보존하며 화면에서만 미노출 처리) */}
+        {/* Contact (파일 내용은 그대로 보존하며 화면에서만 미노출 처리) */}
         {/*
         <ContactSection
           profile={profileData}
