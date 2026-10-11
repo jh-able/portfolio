@@ -50,7 +50,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div className="max-w-2xl">
             <div className="text-xs uppercase tracking-widest font-semibold text-[#315EFB] mb-3">
-              Section 04 · Selected Projects
+              Selected Projects
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-[#14243A] tracking-tight mb-4">
               주요 프로젝트
