@@ -8,7 +8,7 @@ export const CareerDirectionSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-3xl mb-16">
           <div className="text-xs uppercase tracking-widest font-semibold text-[#315EFB] mb-3">
-            Section 06 · Career Direction
+            Career Direction
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#14243A] tracking-tight mb-4">
             {careerDirectionData.title}
